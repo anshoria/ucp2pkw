@@ -17,7 +17,7 @@
 			<div class="card-header">
 				<h3>Admin Login</h3>
 			</div>
-			<div class="login100-form validate-form" action="" method="POST" >
+			<div class="login100-form validate-form p-b-33 p-t-5" action="" method="POST">
 				<form method="post" action="">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -36,7 +36,7 @@
 						<input type="submit" value="Login" name="login" class="btn float-right btn-primary">
 					</div>
 				</form>
-        <?php
+      			<?php
 					if( isset($_POST['login']) ){
 						include 'config.php';
 						$username = $_POST['username'];

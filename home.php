@@ -1,10 +1,3 @@
-<?php
-    session_start();
-    if( !isset($_SESSION['log']) ){
-        header('location:home.php');
-        exit;
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
