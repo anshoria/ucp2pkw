@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-nav ms-auto">
             <a class="nav-link active" aria-current="page" href="create.php">Tambah Buku</a>
-            <a class="btn btn-danger" aria-current="page" href="logout.php">LogOut</a>
+            <a class="btn btn-danger" aria-current="page" href="logout.php" onclick="return confirm('Anda yakin ingin keluar?')">LogOut</a>
           </div>
         </div>
       </div>
