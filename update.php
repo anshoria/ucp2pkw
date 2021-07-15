@@ -1,6 +1,6 @@
 <?php
 //koneksi database
-include './config.php';
+include 'config.php';
 
 // menangkap data yang dikirim dari form
 $id = $_POST['id'];
@@ -11,7 +11,7 @@ $harga = $_POST['harga'];
 $diskon = $_POST['diskon'];
 
 // update data ke database 
-mysqli_query($koneksi, "update buku set nama='$nama', kategori='$kategori', penerbit='$penerbit', harga='$harga', diskon='$diskon', where id='$id'");
+mysqli_query($koneksi, "update buku set nama='$nama', kategori='$kategori', penerbit='$penerbit', harga='$harga', diskon='$diskon' where id='$id'");
 
 // mengalihkan halaman kembali ke home.php
 header("location:home.php");
